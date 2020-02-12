@@ -124,10 +124,23 @@ https://codepen.io/Aryanz02/pen/OJPwWZo?editors=1100
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+
+        A block-level element always starts on a new line and takes up the full width available
+
+        An inline element does not start on a new line and only takes up as much width as necessary.
+
     2. What happens when an element is positioned absolutely? 
+        It means its position is fixed.
+
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        block: header, h1-6, div
+        inline: a, em
+        inline-block:button
+
     5. In your own words, explain the box model. What is the fix for the box model? 
+        MBPC. All content is surrounded by boxes, almost like a nesting doll. The surrounding area is divided up by Margin, Border, Padding and Content. The problem with this, is you might end up having to do a lot of math, if you start messing with too many of the settings. You fix this by using box-sizing: border box
 
     [ ] While the processes learned here will set you up to be successful in most situations, they are just the tip of the iceberg in learning Git. Independently research the following topics to learn more about Git.
    [ ] Research and understand what a `merge conflict` is and how to resolve it.
